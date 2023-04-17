@@ -1,11 +1,16 @@
 Oblig 2
 =======
-OsloMet brukernavn: 
+OsloMet brukernavn: s358934
 
-GitHub brukernavn: 
+GitHub brukernavn: JamilAlmasto
 
-Github repo URL: 
+Github repo URL: https://github.com/data1700-v23/oblig-3-JamilAlmasto.git
 
-Fullt navn: 
+Fullt navn: Jamil Hamoud Almasto
 
 Kort beskrivelse av applikasjon (5-10 setninger):
+Applikasjonen er en enkel applikasjon som lar brukeren legge til, slette og endre data i en database.
+Applikasjonen er laget med JavaFX og bruker JDBC for å kommunisere med databasen. 
+Applikasjonen er laget med et MVC design pattern.
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title class="bi bi-ticket-detailed" >OBLIG3</title>
+<link rel="chortcut icon" type="image/png" href="bilde/icons8-tv-show-80.png">
+</head>
+<body>
+
+<h1> Besttling av kino billetter</h1>
+
+<div class="container">
+
+    <div class="card-body text-white">
+        <div class="row">
+
+            <form id="form" class="needs-validation" novalidate>
+                <div id="inputer" class="col-md-6">
+                    <h2 id="h2r"> Regstreing</h2>
+                    <div class="form-group">
+                        <label for="velg1" >Velg film </label>
+                        <select id="velg1" style="width: 160px">
+                            <option selected="valg en film">Velg film her</option>
+                            <option value="The Joker">The Joker</option>
+                            <option value="Forsset Gump">Forrst Gump</option>
+                            <option value="One Day">One Day</option>
+                            <option value="Gudfaren">Gudfaren</option>
+                            <option value="Pulp Fiction">Pulp Fiction</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="antall">Antall </label>
+                        <input type="number" id="antall" class="form-control" onchange="validerAntall(this.value)"/>
+                        <span id="span1"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="fnavn">Fornavn</label>
+                        <input type="text" id="fnavn" class="form-control" onchange="valdereFnavn(this.value)"/>
+                        <span id="span2"></span>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="enavn">Etternavn </label>
+                        <input type="text" id="enavn" class="form-control" onchange="valdereEnavn(this.value)"/>
+                        <span id="span3"> </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefonnr">Telefonnr </label>
+                        <input type="tel" id="telefonnr" minlength="8" maxlength="8" class="form-control"
+                               onchange="valdereTelefonnr(this.value)"/> <span
+                            id="span4"> </span>
+                    </div>
+                    <div class="form-group">
+                        <label for="epost">Epost </label>
+                        <input type="email" id="epost" class="form-control" onchange="valdereEpost(this.value)"/>
+                        <span id="span5"> </span>
+                    </div>
+                    <div class="form-group">
+                        <button id="regB" class="btn btn-primary btn-lg btn-block  " type="button"
+                                onclick="LagreOgHenteAlle()"
+                        >Kjøp bilett
+                        </button>
+                        <button id="slettB" class="btn btn-danger btn-block " onclick="slettAlle()">Slett bestilling
+                        </button>
+                    </div>
+                </div>
+                <div id="alle" class="col-md-6" >
+                    <h2 id="h2a">Alle billetter</h2>
+                    <p id="resulatat"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="javaScript.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="ValdereInput.js"></script>
+
+</body>
+</html>

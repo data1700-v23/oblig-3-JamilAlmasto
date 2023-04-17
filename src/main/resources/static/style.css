@@ -1,0 +1,122 @@
+
+body {
+    background-image: url("bilde/test2.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #0ad70a;
+
+}
+
+
+h1 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(#151714, #e0bc09);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 0;
+    line-height: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia;
+
+
+}
+
+#h2r, #h2a {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+
+    padding-top: 0px;
+    margin-top: -10px;
+    margin-bottom: -30px;
+    color: #9608ce;
+    font-family: "Khmer MN";
+    vertical-align: -90px;
+    text-align: center;
+
+}
+
+
+#alle {
+    vertical-align: auto;
+    text-align: center;
+    font-family: "Times New Roman";
+    background-attachment: fixed;
+
+}
+
+
+#slettB {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
+
+
+}
+
+#regB {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.container {
+
+    padding: 20px;
+    font-family: "Times New Roman";
+    color: #0a0a0a;
+    background-attachment: fixed;
+    border-radius: 20px;
+
+}
+
+
+
+thead {
+
+    font-family: "Times New Roman";
+}
+
+.form-control {
+    font-family: "Times New Roman";
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 0;
+    line-height: 2em;
+    margin: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #0a0a0a;
+}
+
+#endreB, #slettBr {
+    height: 20px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #6fe107;
+
+
+}
+
+
+
+
+
+
