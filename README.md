@@ -10,7 +10,6 @@ Fullt navn: Jamil Hamoud Almasto
 
 Kort beskrivelse av applikasjon (5-10 setninger):
 Applikasjonen er en enkel applikasjon som lar brukeren legge til, slette og endre data i en database.
-Applikasjonen er laget med JavaFX og bruker JDBC for å kommunisere med databasen. 
-Applikasjonen er laget med et MVC design pattern.
+
 
 
